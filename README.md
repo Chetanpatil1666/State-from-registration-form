@@ -27,4 +27,5 @@ It demonstrates React basics such as **state management, form handling, and cont
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/React-Small-Project-.git
+   git clone https://github.com/your-username/State-from-registration-form
+
