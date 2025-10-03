@@ -1,0 +1,121 @@
+/* Container full screen center */
+.container {
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+} */
+/* Heading */
+.container h1 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Form Card */
+.form {
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+  width: 350px;
+}
+
+/* Form label */
+.form label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 600;
+  color: #34495e;
+}
+
+/* Input fields */
+.form input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #bdc3c7;
+  background-color: #bdc3c7;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.form input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Button style */
+.form button {
+  width: 100%;
+  padding: 12px;
+  background: #3498db;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.form button:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+}
+
+/* Table container */
+table {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 800px;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Head */
+table thead {
+  background: #3498db;
+  color: #ffffff;
+}
+
+table th {
+  padding: 14px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Table body */
+table td {
+  text-align: center;
+  padding: 12px;
+  border-bottom: 1px solid #ecf0f1;
+  color: #2c3e50;
+}
+
+/* Hover row effect */
+table tbody tr:hover {
+  background: #f2f6fa;
+}
